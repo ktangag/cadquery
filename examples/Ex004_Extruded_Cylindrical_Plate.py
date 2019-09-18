@@ -20,7 +20,7 @@ rectangle_length = 19.0     # Length of rectangular hole in cylindrical plate
 # 3.  The circle and rectangle are extruded together, creating a cylindrical
 #     plate with a rectangular hole in the center.
 # 3a. circle() and rect() could be changed to any other shape to completely
-#     change the resulting plate and/or the hole in it.
+#     change the resulting plate and/or the hole in it. This is just a sample and it doesn't count whatever shape we want.
 result = cq.Workplane("front").circle(circle_radius) \
                               .rect(rectangle_width, rectangle_length) \
                               .extrude(thickness)
